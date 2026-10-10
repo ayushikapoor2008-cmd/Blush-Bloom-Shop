@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+  }
+
+  /* film grain overlay */
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 300;
+    pointer-events: none;
+    opacity: 0.045;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  ::selection {
+    background: #b76e79;
+    color: #fff7f8;
+  }
+
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #fcecef;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #dda7a5;
+    border-radius: 8px;
+    border: 2px solid #fcecef;
+  }
+
+  img {
+    -webkit-user-drag: none;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold tracking-wide transition-all duration-300 hover:-translate-y-0.5 disabled:opacity-60 disabled:hover:translate-y-0;
+    background: linear-gradient(135deg, #b76e79 0%, #c9828d 55%, #d4a373 100%);
+    color: #fff7f8;
+    box-shadow: 0 12px 30px -14px rgba(183, 110, 121, 0.6);
+  }
+  .btn-primary:hover {
+    box-shadow: 0 18px 38px -14px rgba(183, 110, 121, 0.7);
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold tracking-wide border transition-all duration-300 hover:-translate-y-0.5;
+    border-color: rgba(36, 20, 23, 0.22);
+    color: #241417;
+    background: transparent;
+  }
+  .btn-ghost:hover {
+    border-color: #b76e79;
+    color: #b76e79;
+  }
+  .eyebrow {
+    @apply text-[11px] uppercase tracking-[0.28em] font-medium;
+    color: #b76e79;
+  }
+  .hairline {
+    border-color: rgba(183, 110, 121, 0.18);
+  }
+  .input-soft {
+    @apply w-full rounded-xl border bg-white/80 px-4 py-3 text-sm outline-none transition-all;
+    border-color: rgba(183, 110, 121, 0.25);
+  }
+  .input-soft:focus {
+    border-color: #b76e79;
+    box-shadow: 0 0 0 3px rgba(183, 110, 121, 0.15);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes floaty {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.animate-marquee {
+  animation: marquee 46s linear infinite;
+}
+.animate-floaty {
+  animation: floaty 6s ease-in-out infinite;
+}
