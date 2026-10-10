@@ -1,0 +1,223 @@
+{
+  "brand": {
+    "name": "Blush & Bloom",
+    "tagline": "Your Style, Your Little Story",
+    "market": "India",
+    "currency": "INR (₹)",
+    "design_personality": "Romantic Editorial Haute Boutique — blending Jaipur artisanal grace, modern Parisian editorial typography, and high-fashion tactile luxury"
+  },
+  "aesthetic_archetype": {
+    "name": "Romantic Editorial Luxury (Pastel Rose x Rose Gold x Deep Espresso Ink)",
+    "rationale": "Transcends generic bubblegum pink by pairing subtle blush porcelain, warm rose-gold metallic luster (#B76E79 / #D4A373), and deep espresso rose ink (#2A171A). Breaks standard e-commerce grid with arched photo silhouettes, asymmetric editorial bento, and smooth momentum interaction."
+  },
+  "typography": {
+    "heading_font": "Cormorant Garamond, Bodoni Moda, serif",
+    "accent_font": "Playfair Display, serif (italic accents)",
+    "body_font": "Plus Jakarta Sans, -apple-system, sans-serif",
+    "mono_meta_font": "IBM Plex Mono, monospace",
+    "font_import_link": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap",
+    "scale": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-serif tracking-tight font-normal",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-serif tracking-tight",
+      "h3_sub": "text-xl sm:text-2xl font-serif",
+      "h4_card": "text-lg sm:text-xl font-medium",
+      "body": "text-base leading-relaxed text-[#594246]",
+      "caption_eyebrow": "text-xs uppercase tracking-[0.25em] font-medium text-[#B76E79]"
+    }
+  },
+  "color_palette": {
+    "canvas_primary": "#FFF7F8",
+    "canvas_card": "#FFFFFF",
+    "canvas_subtle": "#FCECEF",
+    "canvas_dark_footer": "#1F1215",
+    "ink_primary": "#241417",
+    "ink_secondary": "#5C464B",
+    "ink_muted": "#8A7076",
+    "rose_gold_primary": "#B76E79",
+    "rose_gold_glow": "#DDA7A5",
+    "rose_gold_metallic_gradient": "linear-gradient(135deg, #B76E79 0%, #E8C39E 50%, #C9828D 100%)",
+    "soft_blush_accent": "#F7D6DE",
+    "border_delicate": "rgba(183, 110, 121, 0.18)",
+    "border_focus": "#B76E79",
+    "success_green": "#2E7D32",
+    "whatsapp_green": "#25D366"
+  },
+  "image_urls": {
+    "hero_banner": "https://images.unsplash.com/photo-1473286835901-04adb1afab03?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwd29tYW4lMjBkcmVzcyUyMHBpbmt8ZW58MHx8fHwxNzkxNTQ5MDIxfDA&ixlib=rb-4.1.0&q=85",
+    "category_dresses": "https://images.unsplash.com/photo-1609533960426-1e79f14e787f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwd29tYW4lMjBkcmVzcyUyMHBpbmt8ZW58MHx8fHwxNzkxNTQ5MDIxfDA&ixlib=rb-4.1.0&q=85",
+    "category_bags": "https://images.unsplash.com/photo-1589363358751-ab05797e5629?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMGx1eHVyeSUyMGhhbmRiYWclMjBqZXdlbHJ5fGVufDB8fHx8MTc5MTU0OTAyMXww&ixlib=rb-4.1.0&q=85",
+    "category_jewelry": "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMGx1eHVyeSUyMGhhbmRiYWclMjBqZXdlbHJ5fGVufDB8fHx8MTc5MTU0OTAyMXww&ixlib=rb-4.1.0&q=85",
+    "special_offer_editorial": "https://images.unsplash.com/photo-1716504628084-97224213ca6d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjBldGhuaWMlMjBmYXNoaW9uJTIwd29tYW58ZW58MHx8fHwxNzkxNTQ5MDIxfDA&ixlib=rb-4.1.0&q=85",
+    "about_editorial_portrait": "https://images.unsplash.com/photo-1739429942851-9083ee185d3d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBldGhuaWMlMjBmYXNoaW9uJTIwd29tYW58ZW58MHx8fHwxNzkxNTQ5MDIxfDA&ixlib=rb-4.1.0&q=85",
+    "accessories_lifestyle": "https://images.unsplash.com/photo-1559563458-527698bf5295?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGx1eHVyeSUyMGhhbmRiYWclMjBqZXdlbHJ5fGVufDB8fHx8MTc5MTU0OTAyMXww&ixlib=rb-4.1.0&q=85",
+    "hair_accessories_craft": "https://images.unsplash.com/photo-1622207691293-5cd80466dab3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBldGhuaWMlMjBmYXNoaW9uJTIwd29tYW58ZW58MHx8fHwxNzkxNTQ5MDIxfDA&ixlib=rb-4.1.0&q=85"
+  },
+  "layout_and_grids": {
+    "hero_section": "Asymmetric editorial split: Left column features bold Cormorant Garamond title with delicate italic serifs, floating curation tag, and CTA group. Right column houses an arched portrait frame (`rounded-t-[120px] rounded-b-[24px]`) with subtle floating Rose Gold Badge 'Handcrafted in Jaipur & Bombay'.",
+    "categories_bento": "Tetris Grid mode with uneven spans: Dresses & Clothing (col-span-12 md:col-span-7 h-[420px]), Luxury Bags & Clutches (col-span-12 md:col-span-5 h-[420px]), Artisanal Jewellery (col-span-12 md:col-span-4 h-[360px]), Hair & Fashion Accessories (col-span-12 md:col-span-8 h-[360px]).",
+    "product_grid": "Responsive 1 -> 2 -> 4 column card layout (`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6`). Direct children wrapped in framer-motion stagger containers.",
+    "special_offer_strip": "Full-bleed editorial banner with warm tinted dusk background (#241417), metallic foil accent typography, live countdown timer ('FESTIVE EDIT — 20% OFF CODE: BLOOM20'), and quick copy CTA.",
+    "footer": "High-contrast espresso-noir (#1F1215) with rose gold watermark typography ('BLUSH & BLOOM' at 11vw), category links, WhatsApp concierge badge, and Indian payment trust badges (UPI, RuPay, Visa, Mastercard, NetBanking, COD)."
+  },
+  "component_architecture": {
+    "Navbar": "Sticky luxury glass header (backdrop-blur-xl bg-[#FFF7F8]/85 border-b border-[#B76E79]/15 z-50). Contains: Brand Wordmark in Cormorant Garamond, Navigation links (Shop, New In, Categories, Our Story, Contact), Search bar dialog trigger, Wishlist, Cart Drawer counter badge, and Mobile slide-over menu.",
+    "HeroEditorial": "Kinetic editorial hero with masked text reveal, floating artisanal stats ('100% Handcrafted', 'Pan-India Delivery in 3-5 Days', 'INR ₹ Transparent Pricing'), and dual CTAs: 'Explore Collection' + 'Shop on WhatsApp'.",
+    "EditorialMarquee": "Soft sage/rose organic drifting ribbon with phrases: 'HANDCRAFTED LUXURY' • 'CONTEMPORARY INDIAN SILHOUETTES' • 'FREE SHIPPING ABOVE ₹1,999' • 'CASH ON DELIVERY & UPI' • 'ETHICALLY SOURCED FABRICS'.",
+    "CategoryBento": "Interactive bento showcase with arched imagery, zoom micro-interactions, category item counts, and quick filter links.",
+    "ProductCard": "Editorial card with: arched or rounded-xl image frame, heart wishlist toggle, quick size selector chips (XS, S, M, L, XL, Free Size), hover second image flip / spotlight zoom, INR formatted price with strike-through original price, tag ('Bestseller', 'Handmade', 'New'), and direct 'Add to Bag' button.",
+    "ProductDetailModalOrPage": "Deep-dive view with image gallery, size guide in inches/cm, fabric details (Mulmul Cotton, Chanderi Silk, Brass Rose Gold Plating), COD availability check with Indian pincode input, WhatsApp order trigger with pre-filled message, and Add to Cart.",
+    "CartDrawer": "Slide-out right sheet with free shipping progress bar (Free shipping unlock threshold: ₹1,999), order notes, item increment/decrement, coupon code input ('BLOOM20' for 20% off), and checkout trigger.",
+    "CheckoutModal": "Streamlined Indian checkout supporting: 1. Cash on Delivery (COD), 2. UPI / NetBanking / Cards mock gateway (Razorpay/PhonePe styled simulation with instant confirmation), 3. 'Order via WhatsApp' (generates live WhatsApp text with order items and shipping address).",
+    "AdminPanel": "Secret/Accessible product manager with password access ('admin123'). Allows: Add new product with category, price in INR, image URL, sizes, tag; Edit existing product; Delete product; LocalStorage persistent storage so custom changes persist.",
+    "WhatsAppConcierge": "Floating bottom-right button with pulse aura and quick chat popup ('Hello! Need help choosing your size or looking for custom styling? Chat with our stylist on WhatsApp')."
+  },
+  "micro_interactions": {
+    "cursor_effects": "Subtle rose gold magnetic dot on desktop and smooth hover state zooms.",
+    "buttons": "Pill-shaped with rose-gold metallic gradient or crisp espresso border; slight -translate-y-0.5 and shadow-md on hover.",
+    "toasts": "Sonner toasts with pastel pink background, rose-gold accents, and clear action confirmations ('Added to your bag', 'Coupon BLOOM20 applied!')."
+  },
+  "testing_attributes": {
+    "rule": "Every button, link, search input, filter tab, card, and checkout step MUST include explicit data-testid attributes.",
+    "examples": [
+      "data-testid='navbar-brand-logo'",
+      "data-testid='nav-link-shop'",
+      "data-testid='nav-link-about'",
+      "data-testid='nav-link-contact'",
+      "data-testid='nav-cart-button'",
+      "data-testid='nav-search-button'",
+      "data-testid='nav-admin-link'",
+      "data-testid='category-filter-all'",
+      "data-testid='category-filter-clothing'",
+      "data-testid='category-filter-tops'",
+      "data-testid='category-filter-dresses'",
+      "data-testid='category-filter-bags'",
+      "data-testid='category-filter-jewellery'",
+      "data-testid='category-filter-hair-accessories'",
+      "data-testid='category-filter-fashion-accessories'",
+      "data-testid='search-input'",
+      "data-testid='sort-select'",
+      "data-testid='product-card-${id}'",
+      "data-testid='add-to-cart-button-${id}'",
+      "data-testid='product-size-chip-${size}'",
+      "data-testid='cart-drawer-close'",
+      "data-testid='cart-checkout-button'",
+      "data-testid='cart-whatsapp-order-button'",
+      "data-testid='checkout-submit-button'",
+      "data-testid='whatsapp-floating-button'",
+      "data-testid='admin-add-product-button'",
+      "data-testid='admin-save-product-button'",
+      "data-testid='pincode-check-input'",
+      "data-testid='pincode-check-button'"
+    ]
+  },
+  "initial_sample_products": [
+    {
+      "id": "bb-01",
+      "name": "Gulabi Chanderi Anarkali & Dupatta Set",
+      "category": "Dresses",
+      "price": 3499,
+      "originalPrice": 4999,
+      "sizes": ["S", "M", "L", "XL"],
+      "image": "https://images.unsplash.com/photo-1739429942851-9083ee185d3d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBldGhuaWMlMjBmYXNoaW9uJTIwd29tYW58ZW58MHx8fHwxNzkxNTQ5MDIxfDA&ixlib=rb-4.1.0&q=85",
+      "tag": "Bestseller",
+      "description": "Handcrafted flowing Chanderi silk with delicate rose gold zari edging and breathable cotton mulmul lining."
+    },
+    {
+      "id": "bb-02",
+      "name": "Blush Rose Pleated Organza Maxi Dress",
+      "category": "Dresses",
+      "price": 2899,
+      "originalPrice": 3999,
+      "sizes": ["XS", "S", "M", "L"],
+      "image": "https://images.unsplash.com/photo-1473286835901-04adb1afab03?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwd29tYW4lMjBkcmVzcyUyMHBpbmt8ZW58MHx8fHwxNzkxNTQ5MDIxfDA&ixlib=rb-4.1.0&q=85",
+      "tag": "Trending",
+      "description": "Ethereal accordion pleats with a cinched rose-gold belted waistline, ideal for cocktail soirees."
+    },
+    {
+      "id": "bb-03",
+      "name": "Peony Silk Wrap Crop Top & Tiered Blouse",
+      "category": "Tops",
+      "price": 1499,
+      "originalPrice": 2199,
+      "sizes": ["S", "M", "L"],
+      "image": "https://images.unsplash.com/photo-1609533960426-1e79f14e787f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwd29tYW4lMjBkcmVzcyUyMHBpbmt8ZW58MHx8fHwxNzkxNTQ5MDIxfDA&ixlib=rb-4.1.0&q=85",
+      "tag": "New In",
+      "description": "Cross-over feminine neckline with balloon sleeves crafted from fine spun mulberry silk."
+    },
+    {
+      "id": "bb-04",
+      "name": "The Jaipur Potli & Rose Gold Metallic Sling",
+      "category": "Bags",
+      "price": 1899,
+      "originalPrice": 2599,
+      "sizes": ["Free Size"],
+      "image": "https://images.unsplash.com/photo-1589363358751-ab05797e5629?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMGx1eHVyeSUyMGhhbmRiYWclMjBqZXdlbHJ5fGVufDB8fHx8MTc5MTU0OTAyMXww&ixlib=rb-4.1.0&q=85",
+      "tag": "Artisanal",
+      "description": "Structured metallic clutch with detachable rose gold snake chain and hand-embossed floral clasp."
+    },
+    {
+      "id": "bb-05",
+      "name": "Heritage Kundan & Freshwater Pearl Choker",
+      "category": "Jewellery",
+      "price": 2299,
+      "originalPrice": 3299,
+      "sizes": ["Adjustable"],
+      "image": "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMGx1eHVyeSUyMGhhbmRiYWclMjBqZXdlbHJ5fGVufDB8fHx8MTc5MTU0OTAyMXww&ixlib=rb-4.1.0&q=85",
+      "tag": "Limited Edition",
+      "description": "18K rose-gold dipped brass base with natural uncut kundan stones and dangling Basra seed pearls."
+    },
+    {
+      "id": "bb-06",
+      "name": "Baroque Pearl & Rose Quartz Statement Hoops",
+      "category": "Jewellery",
+      "price": 999,
+      "originalPrice": 1499,
+      "sizes": ["One Size"],
+      "image": "https://images.unsplash.com/photo-1716504628084-97224213ca6d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjBldGhuaWMlMjBmYXNoaW9uJTIwd29tYW58ZW58MHx8fHwxNzkxNTQ5MDIxfDA&ixlib=rb-4.1.0&q=85",
+      "tag": "Must Have",
+      "description": "Featherweight hypoallergenic hoops embedded with soothing rose quartz drops."
+    },
+    {
+      "id": "bb-07",
+      "name": "Embellished Silk Velvet Headband & Claw Clip Set",
+      "category": "Hair Accessories",
+      "price": 799,
+      "originalPrice": 1199,
+      "sizes": ["Free Size"],
+      "image": "https://images.unsplash.com/photo-1622207691293-5cd80466dab3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBldGhuaWMlMjBmYXNoaW9uJTIwd29tYW58ZW58MHx8fHwxNzkxNTQ5MDIxfDA&ixlib=rb-4.1.0&q=85",
+      "tag": "Gift Favorite",
+      "description": "Padded dust-rose velvet headband paired with a strong-grip rose gold metallic hair claw."
+    },
+    {
+      "id": "bb-08",
+      "name": "Soft Dusty Pink Italian Nappa Crossbody",
+      "category": "Bags",
+      "price": 2499,
+      "originalPrice": 3499,
+      "sizes": ["Standard"],
+      "image": "https://images.unsplash.com/photo-1559563458-527698bf5295?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGx1eHVyeSUyMGhhbmRiYWclMjBqZXdlbHJ5fGVufDB8fHx8MTc5MTU0OTAyMXww&ixlib=rb-4.1.0&q=85",
+      "tag": "Signature",
+      "description": "Minimalist everyday crossbody bag with double zippered compartments and polished rose-gold hardware."
+    }
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": {
+    "anti_ai_rules": [
+      "DO NOT use generic centered bootstrap columns. Use asymmetric offsets and editorial arches.",
+      "DO NOT use pure black (#000000) or cold blue slate. Neutral base must be warm blush porcelain (#FFF7F8) and text must be deep espresso rose ink (#241417).",
+      "DO NOT use AI assistant emoji icons (🤖🧠💡). Use Lucide icons with customized stroke widths (1.5px).",
+      "DO NOT make headers with standard Inter font. Must use Cormorant Garamond / Bodoni Moda for headlines.",
+      "ALL prices must clearly be in Indian Rupees (INR ₹) formatted cleanly as ₹1,499, ₹2,899 etc.",
+      "Header must never be completely transparent. Use backdrop-blur-xl bg-[#FFF7F8]/85 with subtle rose gold 1px border."
+    ],
+    "mobile_rules": [
+      "Ensure seamless touch experience on 390px (iPhone / Android) screens.",
+      "Sticky bottom mobile bar or accessible floating WhatsApp CTA that never obscures checkout or cart buttons.",
+      "Horizontal scrollable pill tabs for categories on mobile screens for effortless one-thumb switching."
+    ],
+    "state_management": [
+      "Cart state (items, quantity, selected sizes) stored in React Context or localStorage.",
+      "Wishlist state saved in localStorage.",
+      "Admin CRUD operations mutate product state in localStorage so newly added dresses or accessories show up immediately in Shop and Homepage."
+    ]
+  }
+}
